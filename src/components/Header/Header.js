@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav>
+        <nav className="container-fluid">
             <div>
                 <span>learnWithDeb</span>
             </div>
