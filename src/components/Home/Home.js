@@ -3,8 +3,10 @@ import Course from '../Course/Course';
 import './Home.css';
 
 const Home = () => {
+    // declaring the state
     const [courses, setCourses] = useState([]);
 
+    // fetching the data and setting it to the state
     useEffect(() => {
         fetch('./Services.JSON')
             .then(res => res.json())
@@ -20,6 +22,7 @@ const Home = () => {
             <div>
                 <h2>Our popular courses</h2>
                 <div className="course-container">
+                    {/* showing the first four courses */}
                     {
                         courses.slice(0, 4).map(course => <Course key={course.id} course={course}></Course>)
                     }

@@ -8,6 +8,7 @@ const Header = () => {
             <div>
                 <span>learnWithDeb</span>
             </div>
+            {/* Navigation menu */}
             <div>
                 <NavLink to="/home">Home</NavLink>
                 <NavLink to="/about">About</NavLink>

@@ -2,7 +2,9 @@ import React from 'react';
 import './Course.css';
 
 const Course = (props) => {
+    // creating variables through destructuring
     const { img, name, price, author, level } = props.course;
+
     return (
         <div className="card">
             <img src={img} className="card-img-top" alt="..." />
