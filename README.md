@@ -1,6 +1,6 @@
 # learnWithDeb learning app
 
-Live link of the app [learnWithDeb](https://github.com/facebook/create-react-app).
+Live link of the app [learnWithDeb](https://learn-with-deb.netlify.app/).
 
 ## How does the app help?
 - Helps the learners to learn the desired skills.
