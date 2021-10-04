@@ -1,4 +1,4 @@
-h1 {
+.services h1 {
     text-align: center;
     margin-top: 70px;
 }
@@ -9,5 +9,4 @@ h1 {
     grid-gap: 20px;
     width: 70%;
     margin: 50px auto;
-    
 }
